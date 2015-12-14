@@ -26,6 +26,10 @@
         '   use / assigning values
         '   dispose
 
+        ' call a function
+        addition()
+        CalculateAge(10, 20, "Ruchira")
+
         'Declaration
         ' Dim dimension
         ' name
@@ -98,7 +102,63 @@
         Dim position As Integer
         position = InStr(strResult, "VB")
         Console.WriteLine(position)
+
+        'Left and right operations
+        Dim leftPortion As String
+        Dim rightPortion As String
+
+        leftPortion = Left(strResult, 25)
+        rightPortion = Right(strResult, 25)
+        Console.WriteLine("LeftPortion is {0}", leftPortion)
+        Console.WriteLine("RightPortion is {0}", rightPortion)
         Console.ReadLine()
+
+        'conversion of data types
+        Dim number As Integer = 40
+        Dim numAsString As String
+        numAsString = CStr(number)
+        numAsString = number.ToString()
+
+        Dim newStr As String = "100"
+        Dim strAsnumber As Integer
+        strAsnumber = CInt(newStr)
+
+        'CDbl
+        'Csng
+
+        ' cases of concatenation on string values and numerals
+        Dim anotherNum As Integer = 20
+        Dim anotherStr As String = "random string"
+        Dim result As Integer = number.ToString() + anotherNum.ToString()
+        Dim resultStr As String = numAsString & anotherStr
+        Console.WriteLine("Number Result {0}", result)
+        Console.WriteLine("String Result {0}", resultStr)
+        Console.ReadLine()
+
+        'object type variables
+        Dim myColl As New Collection
+
+        'adding items in the collection
+        Dim strName As String = "bag"
+        myColl.Add(1, "myNumber")
+        myColl.Add("VB Session")
+        myColl.Add(20)
+        myColl.Add(strName)
+
+        'retrieval of items
+        Console.WriteLine(myColl.Item("myNumber"))
+        Console.WriteLine(myColl.Item(2))
+        Console.ReadLine()
+
+        'removal
+        myColl.Remove(2)
+
+        Console.WriteLine(myColl.Item(1))
+        Console.WriteLine(myColl.Item(2))
+        Console.ReadLine()
+
+        ' dispose
+        myColl = Nothing ' empty collection
 
 
     End Sub
