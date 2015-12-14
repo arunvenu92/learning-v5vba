@@ -29,7 +29,7 @@
         ' call a function
         addition()
         CalculateAge(10, 20, "Ruchira")
-
+        VariablesScopeDemo.DoThisAsWell()
         'Declaration
         ' Dim dimension
         ' name
