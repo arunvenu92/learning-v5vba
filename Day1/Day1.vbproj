@@ -67,14 +67,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddressCollectionExercise.vb" />
-    <Compile Include="Animal.vb" />
+    <Compile Include="animal.vb" />
     <Compile Include="Cat.vb" />
     <Compile Include="CCDEmployee.vb" />
     <Compile Include="collectionsExercise.vb" />
     <Compile Include="collectionsway2.vb" />
-    <Compile Include="Dog.vb" />
-    <Compile Include="Employee.vb" />
-    <Compile Include="FacilitiesEmployee.vb" />
+    <Compile Include="dog.vb" />
+    <Compile Include="employee.vb" />
+    <Compile Include="facilitiesemployee.vb" />
     <Compile Include="ISound.vb" />
     <Compile Include="Logic.vb" />
     <Compile Include="Module1.vb" />
