@@ -26,13 +26,52 @@
         '   use / assigning values
         '   dispose
 
+        'Dim myAnimal As New Animal
+        'myAnimal.Age = 1
+        'myAnimal.Walk()
+
+        'Dim myAnimalObj2 As New Animal("MyAnimal")
+        Dim myanimalobj3 As Animal
+        myanimalobj3 = New Animal
+
+        'Dim myDogObj As New Dog
+        'myDogObj.Breed = "Retriever"
+
+        Dim myAnimal As Animal ' handle of base class
+        myAnimal = New Dog ' object of child
+        myAnimal.Walk()
+        ' myAnimal = New Cat()
+        'casting of objects
+        CType(myAnimal, Dog).Breed = "xyz"
+
+        Dim myDog As Dog
+        myDog = New Dog
+
+        'illegal
+        'Dim myDog As Dog
+        'myDog = New Animal
+
+        'instance
+        'Dim myEmployee As New Employee
+        'myEmployee.Name = "Ruchira"
+        'Console.WriteLine(myEmployee.Name)
+        'Console.WriteLine(myEmployee.Id)
+        'myEmployee.Email = "ruchira_agarwal@infosys.com"
+
+        'Dim myFacEmp As New FacilitiesEmployee
+        'myFacEmp.Email = "xyz@infosys.com"
+
+        'Console.WriteLine(myEmployee.Email)
+
+        ' Dim empName As String = myEmployee.GetName()
+
         'collectionsExercise
         'collectionsExercise.myCollection()
-        collectionsway2.myCollection()
-        ' call a function
-        addition()
-        CalculateAge(10, 20, "Ruchira")
-        ScopeDemo.DoThisAsWell()
+        'collectionsway2.myCollection()
+        '' call a function
+        'addition()
+        'CalculateAge(10, 20, "Ruchira")
+        'ScopeDemo.DoThisAsWell()
         'Declaration
         ' Dim dimension
         ' name
