@@ -27,8 +27,8 @@
         '   dispose
 
         'collectionsExercise
-        collectionsExercise.myCollection()
-
+        'collectionsExercise.myCollection()
+        collectionsway2.myCollection()
         ' call a function
         addition()
         CalculateAge(10, 20, "Ruchira")

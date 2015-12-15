@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="AddressCollectionExercise.vb" />
     <Compile Include="collectionsExercise.vb" />
+    <Compile Include="collectionsway2.vb" />
     <Compile Include="Logic.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
