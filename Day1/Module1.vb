@@ -26,6 +26,9 @@
         '   use / assigning values
         '   dispose
 
+        'collectionsExercise
+        collectionsExercise.myCollection()
+
         ' call a function
         addition()
         CalculateAge(10, 20, "Ruchira")
