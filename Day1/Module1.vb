@@ -47,6 +47,16 @@
         Dim myDog As Dog
         myDog = New Dog
 
+        'Interfaces
+        Dim myInf As ISound
+        myInf = New Animal
+        myInf.MakeNoise()
+        myInf.MakeSound()
+
+        myInf = New rat
+        myInf.MakeNoise()
+        myInf.MakeSound()
+
         'illegal
         'Dim myDog As Dog
         'myDog = New Animal
